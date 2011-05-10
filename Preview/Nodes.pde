@@ -49,9 +49,13 @@ class Node{
     void draw3D(){
       pushMatrix();
         stroke(lerpColor(#ffffff,#ffcc00,norm(val,0,255)),100);
-        noFill();
+        //noFill();
+        //noStroke();
         translate(position.x,position.y,position.z);
-        box(radius);
+        //box(radius);
+        //lights();
+        sphereDetail(4);
+        sphere(radius);
         
         popMatrix();
     }

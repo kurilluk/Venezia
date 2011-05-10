@@ -45,7 +45,7 @@ void setup(){
         H = 0;
 
         //load default positions grid
-        parser = new DataParser("foundation.2dg");
+        parser = new DataParser("C:\Users\kurilluk\workspace\Venezia\Preview\data\foundation.2dg");
 
         //get nodes from parser
         globNodes = parser.getNodes();
